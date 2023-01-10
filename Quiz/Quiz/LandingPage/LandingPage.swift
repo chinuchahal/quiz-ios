@@ -1,6 +1,8 @@
 import SwiftUI
 
-struct LandingPage: View {
+struct LandingPage: ManagedView {
+    @ObservedObject private(set) var viewModel: LandingPageViewModel
+
     var body: some View {
         VStack {
             Image(systemName: "globe")

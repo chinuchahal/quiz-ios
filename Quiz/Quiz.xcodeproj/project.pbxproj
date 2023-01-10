@@ -22,8 +22,8 @@
 		DC4D522D296DBC5A002BF494 /* ColorAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D522C296DBC5A002BF494 /* ColorAssets.swift */; };
 		DC4D522F296DBD9D002BF494 /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D522E296DBD9D002BF494 /* ImageAssets.swift */; };
 		DCFE35A1296DC91600536080 /* SwinjectContainer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE35A0296DC91600536080 /* SwinjectContainer+Extension.swift */; };
-		DCFE35A3296DC92D00536080 /* ColorResource+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE35A2296DC92D00536080 /* ColorResource+Views.swift */; };
-		DCFE35A5296DC9C100536080 /* ImageResource+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE35A4296DC9C100536080 /* ImageResource+Views.swift */; };
+		DCFE35A3296DC92D00536080 /* ColorResource+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE35A2296DC92D00536080 /* ColorResource+Extension.swift */; };
+		DCFE35A5296DC9C100536080 /* ImageResource+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE35A4296DC9C100536080 /* ImageResource+Extension.swift */; };
 		DCFE35A7296DCCEF00536080 /* LandingPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE35A6296DCCEF00536080 /* LandingPageViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +54,8 @@
 		DC4D522C296DBC5A002BF494 /* ColorAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAssets.swift; sourceTree = "<group>"; };
 		DC4D522E296DBD9D002BF494 /* ImageAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
 		DCFE35A0296DC91600536080 /* SwinjectContainer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwinjectContainer+Extension.swift"; sourceTree = "<group>"; };
-		DCFE35A2296DC92D00536080 /* ColorResource+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorResource+Views.swift"; sourceTree = "<group>"; };
-		DCFE35A4296DC9C100536080 /* ImageResource+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageResource+Views.swift"; sourceTree = "<group>"; };
+		DCFE35A2296DC92D00536080 /* ColorResource+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorResource+Extension.swift"; sourceTree = "<group>"; };
+		DCFE35A4296DC9C100536080 /* ImageResource+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageResource+Extension.swift"; sourceTree = "<group>"; };
 		DCFE35A6296DCCEF00536080 /* LandingPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,8 +157,8 @@
 				DC4D5217296D087C002BF494 /* Container+Extension.swift */,
 				DC4D522A296DBB5F002BF494 /* String+Extension.swift */,
 				DCFE35A0296DC91600536080 /* SwinjectContainer+Extension.swift */,
-				DCFE35A2296DC92D00536080 /* ColorResource+Views.swift */,
-				DCFE35A4296DC9C100536080 /* ImageResource+Views.swift */,
+				DCFE35A2296DC92D00536080 /* ColorResource+Extension.swift */,
+				DCFE35A4296DC9C100536080 /* ImageResource+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -342,9 +342,9 @@
 				DC4D521F296DB6E1002BF494 /* LandingPage.swift in Sources */,
 				DCFE35A1296DC91600536080 /* SwinjectContainer+Extension.swift in Sources */,
 				DC4D51E9296CC9A9002BF494 /* QuizApp.swift in Sources */,
-				DCFE35A3296DC92D00536080 /* ColorResource+Views.swift in Sources */,
+				DCFE35A3296DC92D00536080 /* ColorResource+Extension.swift in Sources */,
 				DC4D5218296D087C002BF494 /* Container+Extension.swift in Sources */,
-				DCFE35A5296DC9C100536080 /* ImageResource+Views.swift in Sources */,
+				DCFE35A5296DC9C100536080 /* ImageResource+Extension.swift in Sources */,
 				DC4D522D296DBC5A002BF494 /* ColorAssets.swift in Sources */,
 				DCFE35A7296DCCEF00536080 /* LandingPageViewModel.swift in Sources */,
 				DC4D521A296D0A91002BF494 /* PreviewContainer+Extension.swift in Sources */,
