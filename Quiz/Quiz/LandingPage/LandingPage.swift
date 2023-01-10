@@ -1,19 +1,20 @@
 import SwiftUI
 
-struct ContentView: View {
+struct LandingPage: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundColor(.accessory)
             Text("Hello, world!")
+                .foregroundColor(.accessory)
         }
         .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandingPage_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandingPage()
     }
 }
