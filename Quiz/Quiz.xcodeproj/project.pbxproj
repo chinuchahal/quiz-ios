@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3A83DF296FD3F2004DAB86 /* InfiniteHorizontalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A83DE296FD3F2004DAB86 /* InfiniteHorizontalScroll.swift */; };
+		DC3A83E1296FD543004DAB86 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A83E0296FD543004DAB86 /* ExampleData.swift */; };
+		DC3A83E3296FD570004DAB86 /* InfiniteVerticalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A83E2296FD570004DAB86 /* InfiniteVerticalScroll.swift */; };
+		DC3A83E52971B153004DAB86 /* InfiniteVerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A83E42971B153004DAB86 /* InfiniteVerticalScrollView.swift */; };
 		DC4D51E9296CC9A9002BF494 /* QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D51E8296CC9A9002BF494 /* QuizApp.swift */; };
 		DC4D51ED296CC9AA002BF494 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4D51EC296CC9AA002BF494 /* ColorAssets.xcassets */; };
 		DC4D5204296CC9AA002BF494 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D5203296CC9AA002BF494 /* QuizUITests.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC3A83DE296FD3F2004DAB86 /* InfiniteHorizontalScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteHorizontalScroll.swift; sourceTree = "<group>"; };
+		DC3A83E0296FD543004DAB86 /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		DC3A83E2296FD570004DAB86 /* InfiniteVerticalScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteVerticalScroll.swift; sourceTree = "<group>"; };
+		DC3A83E42971B153004DAB86 /* InfiniteVerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteVerticalScrollView.swift; sourceTree = "<group>"; };
 		DC4D51E5296CC9A9002BF494 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4D51E8296CC9A9002BF494 /* QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizApp.swift; sourceTree = "<group>"; };
 		DC4D51EC296CC9AA002BF494 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC3A83DD296FD386004DAB86 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A83E0296FD543004DAB86 /* ExampleData.swift */,
+				DC3A83DE296FD3F2004DAB86 /* InfiniteHorizontalScroll.swift */,
+				DC3A83E2296FD570004DAB86 /* InfiniteVerticalScroll.swift */,
+				DC3A83E42971B153004DAB86 /* InfiniteVerticalScrollView.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 		DC4D51DC296CC9A9002BF494 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +121,7 @@
 				DC4D521B296DB683002BF494 /* App */,
 				DC4D521C296DB68D002BF494 /* DesignPattern */,
 				DC4D521D296DB6AF002BF494 /* LandingPage */,
+				DC3A83DD296FD386004DAB86 /* Examples */,
 				DC4D5229296DBB44002BF494 /* Utility */,
 				DC4D5221296DB815002BF494 /* Assets */,
 				DC4D51EE296CC9AA002BF494 /* PreviewContent */,
@@ -342,13 +362,17 @@
 				DC4D521F296DB6E1002BF494 /* LandingPage.swift in Sources */,
 				DCFE35A1296DC91600536080 /* SwinjectContainer+Extension.swift in Sources */,
 				DC4D51E9296CC9A9002BF494 /* QuizApp.swift in Sources */,
+				DC3A83E3296FD570004DAB86 /* InfiniteVerticalScroll.swift in Sources */,
+				DC3A83DF296FD3F2004DAB86 /* InfiniteHorizontalScroll.swift in Sources */,
 				DCFE35A3296DC92D00536080 /* ColorResource+Extension.swift in Sources */,
 				DC4D5218296D087C002BF494 /* Container+Extension.swift in Sources */,
 				DCFE35A5296DC9C100536080 /* ImageResource+Extension.swift in Sources */,
+				DC3A83E52971B153004DAB86 /* InfiniteVerticalScrollView.swift in Sources */,
 				DC4D522D296DBC5A002BF494 /* ColorAssets.swift in Sources */,
 				DCFE35A7296DCCEF00536080 /* LandingPageViewModel.swift in Sources */,
 				DC4D521A296D0A91002BF494 /* PreviewContainer+Extension.swift in Sources */,
 				DC4D5228296DBB2C002BF494 /* StringAssets.swift in Sources */,
+				DC3A83E1296FD543004DAB86 /* ExampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
